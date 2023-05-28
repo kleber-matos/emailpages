@@ -1,0 +1,91 @@
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  color: #070550;
+  padding: 2rem;
+}
+
+i {
+  color: #dc5757;
+  font-size: 30px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo h3 {
+  padding-left: 5px;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  height: 90%;
+}
+
+h1 {
+  color: #070550;
+  font-size: 60px;
+}
+
+.description {
+  color: #4e4e4e;
+}
+
+.email {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+}
+button {
+  width: 10%;
+  background-color: #dd4141;
+  border: none;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.anuncio {
+  background-color: #29303f;
+  display: flex;
+  justify-content: space-between;
+  text-align: start;
+  overflow: hidden;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.user {
+  height: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.text {
+  padding: 2rem;
+}
